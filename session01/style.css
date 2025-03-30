@@ -8,13 +8,13 @@
 
 /* id 선택자와 class 선택자 */
 #heading {
-  margin-top: 100px;
+  margin-top: 120px;
   color: pink;
 }
 
 .contents {
   width: 400px;
-  height: 200px;
+  height: 100px;
   border: 1px solid gray;
 
   display: flex;
