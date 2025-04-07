@@ -109,13 +109,6 @@
   font-size: 13px;
 }
 
-#numberx5 {
-  font-size: 13px;
-}
-
-.ellipsis {
-  width: 300px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+#number*5{
+  font-size
 }

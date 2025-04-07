@@ -113,9 +113,6 @@
   font-size: 13px;
 }
 
-.ellipsis {
-  width: 300px;
-  white-space: nowrap;
-  overflow: hidden;
+.ellipsis{
   text-overflow: ellipsis;
 }
