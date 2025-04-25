@@ -7,7 +7,7 @@ const SongCard = ({
   composer,
 }) => {
   return (
-    <section className="w-100 p-6 bg-sky-200 border-gray-200 border-2 rounded-lg shadow-2xl">
+    <section className="w-full p-6 bg-sky-200 border-gray-200 border-2 rounded-lg shadow-2xl">
       <img
         src={albumImage}
         alt={`${title} 앨범 커버`}
