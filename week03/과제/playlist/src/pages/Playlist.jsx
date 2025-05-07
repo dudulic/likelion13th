@@ -4,27 +4,34 @@ import { useState } from 'react';
 import Modal from '../hooks/modal';
 
 export const Playlist = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState();
+  const [selectedTitle, setSelectedTitle] = useState();
 
-  const handleImageClick = (image) => {
+  const handleImageClick = (image, title) => {
     setSelectedImage(image);
+    setSelectedTitle(title);
   };
 
   const handleCloseModal = () => {
-    setSelectedImage(null);
+    setSelectedImage();
+    setSelectedTitle();
   };
 
   return (
     <main className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      {albumData.map((song, index) => (
+      {albumData.map((song, albumId) => (
         <SongCard
-          key={index}
+          key={albumId}
           {...song}
-          onCardClick={() => handleImageClick(song.albumImage)}
+          onCardClick={() => handleImageClick(song.albumImage, song.title)}
         />
       ))}
       {selectedImage && (
-        <Modal image={selectedImage} onClose={handleCloseModal} />
+        <Modal
+          image={selectedImage}
+          title={selectedTitle}
+          onClose={handleCloseModal}
+        />
       )}
     </main>
   );
