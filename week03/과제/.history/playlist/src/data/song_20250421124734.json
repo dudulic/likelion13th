@@ -1,0 +1,32 @@
+{
+  "albumImage": "/src/assets/rebel-heart.png",
+  "releaseDate": "2025-01-13",
+  "artist": "IVE",
+  "title": "REBEL HEART",
+  "lyricist": "Nietzsche",
+  "composer": "Emily Harbakk"
+},
+{
+  "albumImage": "/src/assets/too-bad.jpg",
+  "releaseDate": "2025-02-24",
+  "artist": "G-DRAGON",
+  "title": "TOO BAD",
+  "lyricist": "Anderson .Paak",
+  "composer": "Alissia"
+},
+{
+  "albumImage": "/src/assets/like-jennie.jpg",
+  "releaseDate": "2016-11-11",
+  "artist": "Charlie Puth",
+  "title": "DANGEROUSLY",
+  "lyricist": "Jonathan Rotem",
+  "composer": "Charlie Puth"
+},
+{
+  "albumImage": "/src/assets/flower.jpg",
+  "releaseDate": "2025-01-13",
+  "artist": "IVE",
+  "title": "REBEL HEART",
+  "lyricist": "Nietzsche",
+  "composer": "Emily Harbakk"
+}
