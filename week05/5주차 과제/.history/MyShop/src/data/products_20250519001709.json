@@ -1,0 +1,33 @@
+[
+    {
+        "productImage": "/src/assets/Backpack.png",
+        "category": "Accessories",
+        "name": "Backpack",
+        "price": "79.99"
+    },
+    {
+        "productImage": "/src/assets/Headphones.png",
+        "category": "Electronics",
+        "name": "Headphones",
+        "price": "129.99"
+    },
+    {
+        "productImage": "/src/assets/Jacket.png",
+        "category": "Clothing",
+        "name": "Jacket",
+        "price": "69.99"
+    },
+    {
+        "productImage": "/src/assets/PhoneCase.png",
+        "category": "Accessories",
+        "name": "Phone Case",
+        "price": "19.99"
+    },
+    {
+        "productImage": "/src/assets/Backpack.png",
+        "category": "Accessories",
+        "name": "Backpack",
+        "price": "79.99"
+    },
+    
+]
