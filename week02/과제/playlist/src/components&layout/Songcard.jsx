@@ -7,6 +7,7 @@ const SongCard = ({
   composer,
 }) => {
   return (
+    /*ph:w-60 ph:p-3 pt:text-sm ph:m-3 dt:w-100 dt:p-6 dt:m-5 dt:text-base bg-gray-800 rounded-lg shadow*/
     <section className="w-full p-6 bg-sky-200 border-gray-200 border-2 rounded-lg shadow-2xl">
       <img
         src={albumImage}
