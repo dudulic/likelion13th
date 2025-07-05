@@ -5,7 +5,8 @@ const MemoBoard = (props) => {
   return (
     <MemoWrapper>
       {props.children}
-      <LOL>떠든사람 : 잡캐헨리</LOL>
+      <YEE>더위 조심하세요 </YEE>
+      <LOL>떠든사람 : 일론머스크</LOL>
     </MemoWrapper>
   );
 };
@@ -41,4 +42,15 @@ const LOL = styled.span`
   right: 16px;
   transform: rotate(-8deg);
 `;
+
+const YEE = styled.span`
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  bottom: 30px;
+  left: 18px;
+  transform: rotated(10deg);
+`;
+
 export default MemoBoard;

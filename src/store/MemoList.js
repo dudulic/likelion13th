@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 export const useMemoStore = create((set) => ({
-  memoList: [],
+  memoList: [], //리턴되는 상태
   addMemo: (val) =>
     set((prev) => ({
       memoList: [

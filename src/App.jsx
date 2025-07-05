@@ -3,6 +3,7 @@ import MemoInput from "./components/MemoInput";
 import MemoBoard from "./components/MemoBoard";
 import { useMemoStore } from "./store/MemoList";
 
+
 const App = () => {
   const { memoList } = useMemoStore();
   return (
