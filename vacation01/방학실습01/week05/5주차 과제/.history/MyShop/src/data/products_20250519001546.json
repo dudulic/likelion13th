@@ -1,0 +1,15 @@
+[
+    {
+        "productImage": "/src/assets/Backpack.png",
+        "category": "Accessories",
+        "name": "Backpack",
+        "price": "79.99"
+    },
+    {
+        "productImage": "/src/assets/Headphones.png",
+        "category": "Electronics",
+        "name": "Backpack",
+        "price": "79.99"
+    },
+    
+]

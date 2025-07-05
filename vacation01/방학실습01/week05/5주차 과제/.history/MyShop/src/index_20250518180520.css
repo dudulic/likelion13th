@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+export default {
+  theme: {
+    extend: {},
+    screens: {
+      ph: '360px',
+      dt: '1440px',
+    },
+  },
+};
